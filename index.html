@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seg Pronta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+    <!-- Nav bar com o botão de login -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Seg Pronta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Setores & Vias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cadastrar Setor/Via</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Favoritos</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-dark">Login or Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrosel inicial com fotos dos Escaladores -->
+    <div id="carouselHome" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="images/alex-Megos.-Perfecto-Mundo-9b.jpg" class="d-block w-100 c-img"
+                    alt="Alex Megos escalando Perfecto Mundo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-uppercase fw-bold" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.5)">Seg Pronta</h5>
+                    <p class="text-uppercase fw-semibold" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.5)">Descubra
+                        setores, vias e histórias que inspiram quem vive entre agarras, conquistas e paredões.</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="images/stefano_ghisolfi.jpg" class="d-block w-100 c-img" alt="Stefano Ghiofi silueta">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-uppercase fw-bold" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.5)">Seu próximo
+                        desafio</h5>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="images/ondra-lasportiva-video.webp" class="d-block w-100 c-img"
+                    alt="Adam Ondra exibindo seus musculos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-uppercase fw-bold" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.5)">Começa com uma
+                        boa preparação</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards com os setores mais bem avaliados do site -->
+
+    <!-- Titulo para os cards -->
+    <div class="container-fluid mb-5">
+        <h1 class="text-center display-3 pt-5 mt-3">Setores Destaque</h1>
+        <div class="w-100 text-center">
+            <p class="lead">Conheça os setores mais bem avaliados pela comunidade de escaladores.
+                Escolha seu próximo destino vertical entre os favoritos do site.</p>
+        </div>
+    </div>
+
+    <!-- Grade com os cards dos setores -->
+    <div class="container text-start">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 gy-4" >
+                <div class="card h-100 w-100 " style="width: 18rem;">
+                    <img src="images/corupa.jpg" class="card-img-top img-setor" alt="Cartão postar de Corupa">
+                    <div class="card-body">
+                        <h5 class="card-title">Corupá – Parque do Braço Esquerdo</h5>
+                        <p class="card-text">Paredões imponentes cercados pela Mata Atlântica. Corupá é o cenário ideal
+                            para quem curte vias longas e natureza viva.</p>
+                        <!-- Botão do card -->  
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 gy-4">
+                <div class="card h-100 w-100" style="width: 18rem;">
+                    <img src="images/setor-amigos.jpg" class="card-img-top img-setor" alt="Cartão postar de Setor amigos">
+                    <div class="card-body">
+                        <h5 class="card-title">Piraí do Sul – Setor Amigos</h5>
+                        <p class="card-text">Blocos sólidos, boas agarras e clima de confraria. O Setor Amigos é
+                            perfeito para quem busca desafios técnicos e boas risadas.</p>
+                        <!-- Botão do card -->  
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 gy-4">
+                <div class="card h-100 w-100" style="width: 18rem;">
+                    <img src="images/gruta-de-caxias.jpg" class="card-img-top img-setor" alt="Cartão postar de Gruta de Caixas">
+                    <div class="card-body">
+                        <h5 class="card-title">Caxias do Sul – Gruta</h5>
+                        <p class="card-text">Escalada esportiva em um dos pontos mais tradicionais da serra gaúcha. A
+                            Gruta oferece vias explosivas e clima místico.</p>
+                        <!-- Botão do card -->    
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>
