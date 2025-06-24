@@ -1,27 +1,43 @@
 .c-item {
-    height: 480px;
+  height: 480px;
 }
 
 .c-img {
-    height: 100%;
-    object-fit:cover;
+  height: 100%;
+  object-fit: cover;
 
 }
 
 .img-setor {
-  height: 200px; /* ou outro valor desejado */
+  height: 200px;
+  /* ou outro valor desejado */
   object-fit: cover;
 }
 
-.c-news{
+.c-news {
   margin-top: 10rem;
   background-color: rgba(255, 217, 0, 0.678);
 }
 
-.myNav{
+.myNav {
   background-color: rgb(255, 217, 0, 0.678);
 }
 
-.myFoot{
+.myFoot {
   background-color: rgba(255, 217, 0, 0.603);
+}
+
+.news-img {
+  height: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.news-back-img {
+  background-image: url('images/montanhas-suave.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
