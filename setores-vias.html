@@ -7,7 +7,11 @@
     <title>Seg pronta</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/stylesheet.css">
+
 </head>
 
 <body>
@@ -33,10 +37,275 @@
                         <a class="nav-link active" aria-current="page" href="equipamentos.html">Equipamentos</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-dark">Login or Sign Up</button>
+                <a type="button" class="btn btn-outline-dark" href="login.html">Login or Sign Up</a>
             </div>
         </div>
     </nav>
+
+
+    <section class="container py-5">
+
+        <h1 class="text-center display-4 fw-bold">Setores e Vias</h1>
+        <p class="text-center lead mb-5 border-bottom pb-3">Explore os principais setores de escalada da região e
+            descubra suas vias.</p>
+
+        <div class="row">
+            <!-- Setor Amigos -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="images/setor-amigos.jpg" class="card-img-top img-setor" alt="Setor Amigos">
+                    <div class="card-body">
+                        <h5 class="card-title">Setor Amigos</h5>
+                        <p class="card-text">
+                            <strong>Localidade:</strong> Piraí do Sul (PR)<br>
+                            Setor com sombra o dia todo e vias bem protegidas, ideal para quem está começando ou quer
+                            treinar fluidez.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#setorAmigos">Ver
+                                vias</button>
+                            <button class="btn btn-lg p-0 border-0 bg-transparent favorito" data-fav="false"
+                                aria-label="Favoritar">
+                                <i class="fa fa-heart" style="color: rgb(94, 94, 94);"></i>
+                            </button>
+                        </div>
+                        <div class="collapse mt-3" id="setorAmigos">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Boa de Lidar – 5sup – Esportiva</li>
+                                <li class="list-group-item">Mãos Amigas – 6a – Esportiva</li>
+                                <li class="list-group-item">Tamo Junto – 6b – Esportiva</li>
+                                <li class="list-group-item">Parceria Vertical – 6b+ – Esportiva</li>
+                                <li class="list-group-item">Pega na Corda – 6c – Esportiva</li>
+                                <li class="list-group-item">Toca Aqui – 5sup – Esportiva</li>
+                                <li class="list-group-item">Conexão – 6a – Tradicional</li>
+                                <li class="list-group-item">Vibe Boa – 6b – Boulder</li>
+                                <li class="list-group-item">Entre Amigos – 6a+ – Esportiva</li>
+                                <li class="list-group-item">Chapa Quente – 6c+ – Esportiva</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Setor do Braço Esquerdo -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="images/corupa.jpg" class="card-img-top img-setor" alt="Setor do Braço Esquerdo">
+                    <div class="card-body">
+                        <h5 class="card-title">Setor do Braço Esquerdo</h5>
+                        <p class="card-text">
+                            <strong>Localidade:</strong> Piraí do Sul (PR)<br>
+                            Paredão vertical com vias técnicas e exigentes. Fica exposto ao sol pela manhã, ideal para
+                            escalar à tarde.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#corupa">Ver
+                                vias</button>
+                            <button class="btn btn-lg p-0 border-0 bg-transparent favorito" data-fav="false"
+                                aria-label="Favoritar">
+                                <i class="fa fa-heart" style="color: rgb(94, 94, 94);"></i>
+                            </button>
+                        </div>
+                        <div class="collapse mt-3" id="corupa">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Extensão Máxima – 6c – Esportiva</li>
+                                <li class="list-group-item">Braço de Ferro – 7a – Boulder</li>
+                                <li class="list-group-item">Tríceps Enfurecido – 6b – Esportiva</li>
+                                <li class="list-group-item">Alcance Limitado – 6a+ – Tradicional</li>
+                                <li class="list-group-item">Flexão Final – 6c+ – Esportiva</li>
+                                <li class="list-group-item">Cotovelo de Aço – 6b – Esportiva</li>
+                                <li class="list-group-item">Musculação Vertical – 6a – Esportiva</li>
+                                <li class="list-group-item">Rotação Interna – 5sup – Esportiva</li>
+                                <li class="list-group-item">Ombro Travado – 6b+ – Boulder</li>
+                                <li class="list-group-item">Alavanca – 7a – Tradicional</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gruta de Caxias -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="images/gruta-de-caxias.jpg" class="card-img-top img-setor" alt="Gruta de Caxias">
+                    <div class="card-body">
+                        <h5 class="card-title">Gruta de Caxias</h5>
+                        <p class="card-text">
+                            <strong>Localidade:</strong> Caxias do Sul (RS)<br>
+                            Gruta negativa com vias atléticas, boas opções de teto e boulder. Um clássico do sul do
+                            Brasil.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#gruta">Ver
+                                vias</button>
+                            <button class="btn btn-lg p-0 border-0 bg-transparent favorito" data-fav="false"
+                                aria-label="Favoritar">
+                                <i class="fa fa-heart" style="color: rgb(94, 94, 94);"></i>
+                            </button>
+                        </div>
+                        <div class="collapse mt-3" id="gruta">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Teto do Inferno – 7b – Boulder</li>
+                                <li class="list-group-item">Desce e Sobe – 6c+ – Esportiva</li>
+                                <li class="list-group-item">Caverna Voadora – 7a – Boulder</li>
+                                <li class="list-group-item">Garra de Urso – 6c – Esportiva</li>
+                                <li class="list-group-item">Morcegão – 6b+ – Esportiva</li>
+                                <li class="list-group-item">Teto Z – 6c – Boulder</li>
+                                <li class="list-group-item">Teto da Direita – 6b – Tradicional</li>
+                                <li class="list-group-item">Chapa na Caverna – 7a – Esportiva</li>
+                                <li class="list-group-item">Gota de Magnesio – 6a+ – Esportiva</li>
+                                <li class="list-group-item">Descanso Ativo – 6b – Boulder</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Morro da Cruz -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="images/morro-da-cruz.png" class="card-img-top img-setor" alt="Morro da Cruz">
+                    <div class="card-body">
+                        <h5 class="card-title">Morro da Cruz</h5>
+                        <p class="card-text">
+                            <strong>Localidade:</strong> Florianópolis (SC)<br>
+                            Setor urbano com visual panorâmico da cidade. Vias curtas e intensas, excelente para sessões
+                            rápidas no fim do dia.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#viasMorro">Ver
+                                vias</button>
+                            <button class="btn btn-lg p-0 border-0 bg-transparent favorito" data-fav="false"
+                                aria-label="Favoritar">
+                                <i class="fa fa-heart" style="color: rgb(94, 94, 94);"></i>
+                            </button>
+                        </div>
+                        <div class="collapse mt-3" id="viasMorro">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Panorâmica – 6a – Esportiva</li>
+                                <li class="list-group-item">Final de Tarde – 5sup – Esportiva</li>
+                                <li class="list-group-item">Cruzando Limites – 6c – Esportiva</li>
+                                <li class="list-group-item">Reta Final – 6b+ – Boulder</li>
+                                <li class="list-group-item">Subida Urbana – 6a+ – Esportiva</li>
+                                <li class="list-group-item">Olho no Trânsito – 6c+ – Tradicional</li>
+                                <li class="list-group-item">Trilha do Morro – 5sup – Esportiva</li>
+                                <li class="list-group-item">Encosta Sul – 6b – Boulder</li>
+                                <li class="list-group-item">Vertical Ilha – 6a – Esportiva</li>
+                                <li class="list-group-item">Vento da Serra – 6b+ – Esportiva</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer com links -->
+    <footer class="myFoot">
+        <div class="container text-start pt-5 pb-2">
+            <div class="row gx-3">
+                <div class="col">
+                    <h3 class="text-start display-5 fs-3">Info</h3>
+                </div>
+                <div class="col">
+                    <h3 class="text-start display-5 fs-3">Explorar</h3>
+                </div>
+                <div class="col">
+                    <h3 class="text-start display-5 fs-3">Redes</h3>
+                </div>
+            </div>
+            <div class="row gx-3">
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre
+                            o site</a></p>
+                </div>
+                <div class="col">
+                    <p><a href="setores-vias.html"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Setores
+                            e Vias</a></p>
+                </div>
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Instagram</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-3">
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contato</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <p><a href="equipamentos.html"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Equipamentos
+                        </a></p>
+                </div>
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">YouTube</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-3">
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Termos
+                            de uso</a></p>
+                </div>
+                <div class="col">
+                    <p><a href="noticias.html"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Notícias</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <p><a href="#"
+                            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Enviar
+                            sugestão de setor</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.querySelectorAll('.favorito').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const icon = btn.querySelector('i');
+                const isFavorito = icon.style.color === 'red';
+
+                // Alterna entre vermelho e cinza
+                icon.style.color = isFavorito ? 'rgb(94, 94, 94)' : 'red';
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hash = window.location.hash;
+            if (hash) {
+                const id = hash.replace("#", "");
+                const target = document.getElementById(id);
+
+                if (target && target.classList.contains("collapse")) {
+                    // Aguarda o DOM carregar por completo
+                    setTimeout(() => {
+                        const collapseInstance = bootstrap.Collapse.getOrCreateInstance(target);
+                        collapseInstance.show();
+                        // Rola suavemente até o card
+                        target.closest(".card").scrollIntoView({ behavior: "smooth", block: "start" });
+                    }, 300); // Tempo suficiente para o Bootstrap estar carregado
+                }
+            }
+        });
+    </script>
+
+
 
 </body>
 

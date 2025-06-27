@@ -9,8 +9,7 @@
 }
 
 .img-setor {
-  height: 200px;
-  /* ou outro valor desejado */
+  height: 300px;
   object-fit: cover;
 }
 
@@ -41,3 +40,4 @@
   background-position: center top;
   background-size: cover;
 }
+
